@@ -1,5 +1,7 @@
 # What is Crate?
 
+NOTE: This is a port of the crate.io Dockerfile(s) to work with RHEL7 - gmillard@redhat.com
+
 Crate is _the_ distributed database for containerized environments, such as Docker.
 Based on the familiar SQL syntax, Crate combines high availability, resiliency, and scalability
 in a distributed design that allows you to query mountains of data in realtime, not batches.
