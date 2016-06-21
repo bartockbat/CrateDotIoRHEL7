@@ -1,5 +1,10 @@
-FROM registry.access.redhat.com/rhel7
+FROM registry.access.redhat.com/rhel7.2
 MAINTAINER GlenM gmillard@redhat
+
+LABEL Name rhel7/crate
+LABEL Vendor Crate.io
+LABEL Version 0.49.1
+LABEL Release OSS
 
 RUN yum clean all; \
 rpm --rebuilddb; \
