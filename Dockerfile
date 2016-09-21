@@ -1,5 +1,5 @@
 FROM registry.access.redhat.com/rhel7.2
-MAINTAINER GlenM gmillard@redhat
+MAINTAINER Redhat
 
 LABEL Name rhel7/crate
 LABEL Vendor Crate.io
